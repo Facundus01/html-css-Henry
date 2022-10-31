@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "node": "^19.0.0",
+    "normalize.css": "^8.0.1"
+  }
+}

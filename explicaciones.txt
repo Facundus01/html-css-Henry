@@ -1,0 +1,10 @@
+Variables: Son un lugar donde nosotros podemos almacenar diferentes valor o tipos de datos. Estas se dividen en :
+let, const, var.
+Un string es un tipo de dato que va entre " " y es un dato de tipo texto.
+La Funciones tienen como proposito devolver algo, algo que tiene que ser resuelto con la logica del código. Estas contienen parametros y en ellas podemos usar cualquier tipo de dato, metodo, etc.
+Existen las funciones comunes : function suma(a,b){return a + b}.
+                      Arrow: suma =>(a+b){a + b}.
+Tambien tenemos delcaraciones como lo es el if. Este es un condicionante, en el cual nosotros le damos diferentes situaciones y si estas cumplen nos retornan o hacen algo y sino, nos llevan a un else if o a un else.
+Los if se declaran asi: if(condition){result} --> si la condicion es false nos pasaria a un else if(condition){result} y si este es falso, nos puede llegar a pasar a otro else if o a un cierre, que es llamada else{resultado}.
+Ahora, en los if podemos usar los valores booleanos, los cuales son true o false. Estos van de la mano de los && - || - NOT!.
+                                             

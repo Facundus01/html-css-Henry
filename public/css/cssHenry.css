@@ -1,18 +1,60 @@
-h1{
+
+body{
+    background-color: aqua;
+}
+header {
+    text-align: center;
+    background-color:#00ff5e;
+}
+.separacion{
     color: red;
 }
 .titulo{
-    color: blue;
+    color: rgb(0, 0, 255);
 }
 .subtitulo{
-    color: green;
+    color: red;
 }
 h4{
-    color: black;
+    color: darkblue;
 }
 #idh5{
-    color: pink;
+    color: darkred;
 }
 h6{
-    color: darkmagenta;
+    color: blueviolet;
+}
+p{
+    text-align: center;
+    padding-top: 40px;
+
+}
+nav{
+    text-align: center;
+    background-color: #00ff5e;
+}
+li{
+list-style: none;
+margin-right: 20px;
+padding-right: 20px;
+}
+.link{
+    text-decoration: none;
+    color: #050F99;
+}
+.link:hover{
+    color: #0F9905;
+}
+
+.imagenes{
+    width: 70px;
+    padding: 5px;
+    margin: 5px;
+}
+.imagenes:hover{
+width: 80px;
+}
+footer{
+    text-align: center;
+    background-color: #00ff5e;
 }

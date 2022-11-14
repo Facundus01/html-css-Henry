@@ -1,0 +1,90 @@
+*{box-sizing: border-box;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    color: red;  
+  }
+  
+  #title, #sub-title{
+    text-align: center;
+    margin: 5px;
+  }
+  
+  #title{
+      font-size: 40px;
+  }
+  
+  header{
+      display: flex;
+      flex-direction: column;
+  }
+  
+  ul{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      background-color: aliceblue;
+      border: 2px solid black;
+      padding: 5px;
+      margin: 10px 0;
+  }
+  
+  nav ul li{
+      padding: 1em 6em;
+      list-style: none;
+      margin: 10px;
+      background-color: darkgray;
+      border: 2px solid black;
+  }
+
+form{
+    max-width: 500px;
+    min-width: 300px;
+    height: 55vh;
+    background-color: aliceblue;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    margin: 25px auto;
+    padding: 15px;
+    justify-content: center;
+}
+
+fieldset{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+label{
+    margin: 15px auto ;
+    text-align: center;
+    background-color: darkgray;
+}
+
+label:last-child{
+    margin-bottom: 0;
+}
+
+input{
+    display: block;
+}
+
+a{
+    text-decoration: none;
+}
+
+h3{
+    font-size: 28px;
+    text-align: center;
+    background-color: darkgrey;
+    border: 2px solid black;
+    margin: 20px 25%;
+    padding: 5px;
+}
+
+footer{
+ padding-top: 50px;
+ text-align: center;
+}
